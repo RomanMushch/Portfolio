@@ -9,12 +9,12 @@
 (function () {
     'use strict';
 
-    var PortfolioController = function ($scope, $controller) {
+    var PortfolioController = function ($scope, $controller, appConfig) {
 
         //----------------------------------------------------------------------------------------------- BASE --//
 
         //---------------------------------------------------------------------------------- SCOPE & VARIABLES --//
-
+        $scope.portfolio = appConfig.Portfolio
         //-------------------------------------------------------------------------------------------- METHODS --//
 
         //--------------------------------------------------------------------------------------------- EVENTS --//
@@ -31,7 +31,7 @@
         //----------------------------------------------------------------------------------------------- INIT --//
         onReady();
     };
-    PortfolioController.$inject = ['$scope', '$controller'];
+    PortfolioController.$inject = ['$scope', '$controller','appConfig'];
 
     angular.module('myApp')
         .controller('PortfolioController', PortfolioController);
