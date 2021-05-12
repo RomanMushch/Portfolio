@@ -11,7 +11,7 @@
     "angular-loader": "^1.7.5",
     "angular-route": "^1.7.5",
     "angular-ui-router": "^1.0.22",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "connect-modrewrite": "^0.10.2",
     "grunt": "^1.0.4",
     "grunt-contrib-connect": "^2.1.0",
